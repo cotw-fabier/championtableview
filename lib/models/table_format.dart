@@ -13,7 +13,7 @@ class TableFormat {
     required this.headerRow,
     required this.rows,
     this.pageSize = 10,
-    this.startingPage = 1,
+    this.startingPage = 0,
     this.loadMore,
     this.displayNavigation = false,
   });
